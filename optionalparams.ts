@@ -10,6 +10,6 @@ function greet1(name:string, greeting?: string): void {
 
   // ASI ==> Automatic Semicolon insertion
 
-  greet('nithya');  // not passing greeting; 
-  greet('nithya', 'Hey'); // go to if
+  greet1('nithya');  // not passing greeting; 
+  greet1('nithya', 'Hey'); // go to if
   
