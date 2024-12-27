@@ -1,4 +1,4 @@
-function greet1(name:string, greeting?: string): void {
+function greet(name:string, greeting?: string): void {
 
     if (greeting) {
       console.log(`${greeting}! ${name}`);
@@ -10,6 +10,6 @@ function greet1(name:string, greeting?: string): void {
 
   // ASI ==> Automatic Semicolon insertion
 
-  greet1('nithya');  // not passing greeting; 
-  greet1('nithya', 'Hey'); // go to if
+  greet('nithya');  // not passing greeting; 
+  greet('nithya', 'Hey'); // go to if
   

@@ -1,4 +1,4 @@
-function greet1(name, greeting) {
+function greet(name, greeting) {
     if (greeting) {
         console.log("".concat(greeting, "! ").concat(name));
     }
@@ -7,5 +7,5 @@ function greet1(name, greeting) {
     }
 }
 // ASI ==> Automatic Semicolon insertion
-greet1('nithya'); // not passing greeting; 
-greet1('nithya', 'Hey'); // go to if
+greet('nithya'); // not passing greeting; 
+greet('nithya', 'Hey'); // go to if
